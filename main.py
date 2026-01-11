@@ -35,7 +35,7 @@ def main():
                     break
                 except ValueError:
                     print("Invalid input. Please enter a valid number.\n")
-            print(operation(num1, num2, choice))
+            print(f"Result: {operation(num1, num2, choice)}")
             ask = input("Do you want to perform another operation? (y(default)/n): ").lower()
             if ask != "y" and ask != "":
                 # play = False
