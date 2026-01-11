@@ -19,7 +19,7 @@ def operation(a, b, operation_type):
 
 def main():
     print("========Welcome to the Calculator Program========")
-    print("Select operation:")
+    print("Select operation: ")
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
